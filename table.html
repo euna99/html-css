@@ -8,25 +8,45 @@
     <title>Document</title>
 </head>
 <body>
-    <caption>표의 이름</caption>
     <table>
+    <caption>표의 이름</caption>
+    <caption>웹개발 공부 기록</caption>
+    <thead>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
+            <th scope="col">과목</th>
+            <th scope="col">월</th>
+            <th scope="col">화</th>
+            <th scope="col">수</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">HTML</th>
+            <td>60분</td>
+            <td>60분</td>
+            <td>0분</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <th scope="row">CSS</th>
+            <td>0분</td>
+            <td>30분</td>
+            <td>60분</td>
         </tr>
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
+            <th scope="row">JS</th>
+            <td>0분</td>
+            <td>0분</td>
+            <td>60분</td>
         </tr>
-<!-- tr은 행 td는 열 -->
-
-    </table>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>총 시간</th>
+            <td>60분</td>
+            <td>90분</td>
+            <td>120분</td>
+        </tr>
+    </tfoot>
+</table> 
 </body>
 </html>
